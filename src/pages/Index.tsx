@@ -1,41 +1,12 @@
-import { Header } from "@/components/Header";
-import { HeroSection } from "@/components/HeroSection";
-import { ProductSection } from "@/components/ProductSection";
-import { AboutSection } from "@/components/AboutSection";
-import { TrendingSection } from "@/components/TrendingSection";
-import { Footer } from "@/components/Footer";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      
-      <HeroSection />
-      
-      <ProductSection 
-        title="TRAIL LIGHT"
-        subtitle="Bringing Brightness To Your Life"
-        description="Add a Touch of Style to your spaces."
-      />
-      
-      <ProductSection 
-        title="Wires and Cables"
-        subtitle="The ultimate solution for electrical safety"
-        description="Fireproof your electrical systems with PVC cables"
-        reverse={true}
-      />
-      
-      <ProductSection 
-        title="SWITCHGEARS"
-        subtitle="Switch to safety with reliable switchgears"
-        description="Unlocking a safer tomorrow"
-      />
-      
-      <AboutSection />
-      
-      <TrendingSection />
-      
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
