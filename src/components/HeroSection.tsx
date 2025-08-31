@@ -9,7 +9,7 @@ export const HeroSection = () => {
               src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" 
               alt="Kanstar Bluechef" 
               className="h-32 md:h-48 lg:h-64 mx-auto group-hover:scale-105 transition-all duration-700 ease-out drop-shadow-2xl"
-              style={{filter: "brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(7467%) hue-rotate(0deg) brightness(95%) contrast(105%)"}}
+              style={{filter: "brightness(0) saturate(100%) invert(22%) sepia(69%) saturate(2971%) hue-rotate(329deg) brightness(101%) contrast(103%)"}}
             />
           </h1>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary mb-8 tracking-[0.3em] uppercase group-hover:scale-105 transition-all duration-700 ease-out">
