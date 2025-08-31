@@ -37,7 +37,7 @@ export const ProductSection = ({
             )}
             <Button 
               variant="outline"
-              className="bg-transparent border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              className="bg-white border-white text-white hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               Know More
               <ChevronRight className="ml-2 h-4 w-4" />
