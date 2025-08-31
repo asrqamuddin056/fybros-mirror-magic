@@ -22,7 +22,7 @@ const About = () => {
             </p>
             
             <div className="mt-12">
-              <h2 className="text-2xl font-semibold text-primary mb-4">
+              <h2 className="text-2xl font-semibold text-foreground mb-4">
                 Our Mission
               </h2>
               <p>
@@ -31,7 +31,7 @@ const About = () => {
             </div>
             
             <div className="mt-8">
-              <h2 className="text-2xl font-semibold text-primary mb-4">
+              <h2 className="text-2xl font-semibold text-foreground mb-4">
                 Our Vision
               </h2>
               <p>

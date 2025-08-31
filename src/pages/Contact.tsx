@@ -15,7 +15,7 @@ const Contact = () => {
           
           <div className="grid md:grid-cols-2 gap-12 mt-16">
             <div>
-              <h2 className="text-2xl font-bold text-primary mb-6">Get in Touch</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h2>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <MapPin className="h-6 w-6 text-primary" />
@@ -44,7 +44,7 @@ const Contact = () => {
             </div>
             
             <div className="bg-card p-8 rounded-lg">
-              <h2 className="text-2xl font-bold text-primary mb-6">Send us a Message</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-6">Send us a Message</h2>
               <form className="space-y-4">
                 <input 
                   type="text" 

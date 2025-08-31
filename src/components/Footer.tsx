@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="bg-card py-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
             Discover the Future of Smart Cooling with Kanstar Bluechef
           </h2>
           <h3 className="text-lg text-muted-foreground mb-8">
