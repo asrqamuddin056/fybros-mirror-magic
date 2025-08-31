@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react";
+
 export const Footer = () => {
   return (
     <footer className="bg-card py-16 px-4">
@@ -44,9 +46,58 @@ export const Footer = () => {
           </div>
         </div>
 
+        {/* Contact Information and Social Links */}
+        <div className="grid md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-border">
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Contact Information</h3>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3">
+                <MapPin className="h-5 w-5 text-primary" />
+                <span className="text-muted-foreground">123 Electronics Street, Industrial Area, Mumbai, India</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-primary" />
+                <span className="text-muted-foreground">+91 98765 43210</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="h-5 w-5 text-primary" />
+                <span className="text-muted-foreground">info@fybros.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Quick Links</h3>
+            <div className="space-y-2">
+              <a href="/products" className="block text-muted-foreground hover:text-primary transition-colors">Products</a>
+              <a href="/about" className="block text-muted-foreground hover:text-primary transition-colors">About Us</a>
+              <a href="/media" className="block text-muted-foreground hover:text-primary transition-colors">Media</a>
+              <a href="/contact" className="block text-muted-foreground hover:text-primary transition-colors">Contact</a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Facebook className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Instagram className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Twitter className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Youtube className="h-6 w-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center mt-12 pt-8 border-t border-border">
           <p className="text-muted-foreground">
-            Experience the difference. Experience Fybros — where smart design powers smarter living.
+            © 2024 Fybros. All rights reserved. Experience the difference — where smart design powers smarter living.
           </p>
         </div>
       </div>

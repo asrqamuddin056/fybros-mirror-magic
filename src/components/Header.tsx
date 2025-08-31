@@ -2,6 +2,7 @@ import { Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,32 +12,27 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <div className="bg-primary px-4 py-2 text-primary-foreground font-bold text-xl">
-              fybros
-            </div>
-          </div>
+          <Link to="/" className="flex items-center">
+            <img src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" alt="Fybros" className="h-10" />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors">
               Home
-            </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            </Link>
+            <Link to="/products" className="text-foreground hover:text-primary transition-colors">
               Products
-            </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-primary transition-colors">
               About Us
-            </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            </Link>
+            <Link to="/media" className="text-foreground hover:text-primary transition-colors">
               Media
-            </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
-              Career
-            </a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            </Link>
+            <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact Us
-            </a>
+            </Link>
           </nav>
 
           {/* Search Bar */}
@@ -72,24 +68,21 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-border py-4">
             <nav className="flex flex-col space-y-2">
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
+              <Link to="/" className="text-foreground hover:text-primary px-4 py-2">
                 Home
-              </a>
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
+              </Link>
+              <Link to="/products" className="text-foreground hover:text-primary px-4 py-2">
                 Products
-              </a>
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
+              </Link>
+              <Link to="/about" className="text-foreground hover:text-primary px-4 py-2">
                 About Us
-              </a>
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
+              </Link>
+              <Link to="/media" className="text-foreground hover:text-primary px-4 py-2">
                 Media
-              </a>
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
-                Career
-              </a>
-              <a href="#" className="text-foreground hover:text-primary px-4 py-2">
+              </Link>
+              <Link to="/contact" className="text-foreground hover:text-primary px-4 py-2">
                 Contact Us
-              </a>
+              </Link>
             </nav>
             <div className="mt-4 px-4">
               <div className="relative">

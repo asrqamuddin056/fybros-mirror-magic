@@ -1,7 +1,6 @@
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { ProductSection } from "@/components/ProductSection";
-import { AboutSection } from "@/components/AboutSection";
 import { TrendingSection } from "@/components/TrendingSection";
 import { Footer } from "@/components/Footer";
 
@@ -30,8 +29,6 @@ const Index = () => {
         subtitle="Switch to safety with reliable switchgears"
         description="Unlocking a safer tomorrow"
       />
-      
-      <AboutSection />
       
       <TrendingSection />
       
