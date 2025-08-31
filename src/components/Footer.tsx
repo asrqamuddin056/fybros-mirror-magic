@@ -1,8 +1,6 @@
 import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-card py-16 px-4">
+  return <footer className="bg-card py-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
@@ -53,7 +51,8 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">123 Fan Street, Industrial Area, Mumbai, India</span>
+                <span className="text-muted-foreground">H.No 16-876,Doolapally IDA
+Jeedimetla Hyderabad-55,Telengana</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
@@ -101,6 +100,5 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
