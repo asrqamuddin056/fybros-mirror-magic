@@ -4,12 +4,8 @@ export const HeroSection = () => {
   return <section className="relative min-h-screen bg-background flex items-center justify-center text-center px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-widest">
-          <span className="bg-gradient-to-r from-primary via-red-500 to-primary bg-clip-text text-transparent drop-shadow-lg">
-            KANSTAR
-          </span>
-          <span className="mx-2 text-muted-foreground">•</span>
-          <span className="bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent drop-shadow-lg">
-            BLUECHEF
+          <span className="bg-gradient-to-r from-primary via-red-500 to-red-400 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
+            KANSTAR BLUECHEF
           </span>
         </h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
