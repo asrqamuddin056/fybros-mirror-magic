@@ -12,6 +12,12 @@ const Index = () => {
       <HeroSection />
       
       <ProductSection 
+        title="CEILING FANS"
+        subtitle="Elevate Your Space with Premium Cooling"
+        description="Transform your room with stylish and efficient ceiling fans."
+      />
+      
+      <ProductSection 
         title="PEDESTAL FANS"
         subtitle="Bringing Comfort To Your Life"
         description="Add a Touch of Style to your spaces."
