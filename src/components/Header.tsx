@@ -13,7 +13,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" alt="Kanstar Bluechef" className="h-10" />
+            <img src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" alt="Kanstar Bluechef" className="h-10 filter brightness-0 saturate-100" style={{filter: "invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)"}} />
           </Link>
 
           {/* Desktop Navigation */}
