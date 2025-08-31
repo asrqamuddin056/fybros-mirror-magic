@@ -10,7 +10,7 @@ export const HeroSection = () => {
             className="h-32 md:h-48 lg:h-64 mx-auto hover:scale-105 transition-all duration-700 ease-out drop-shadow-2xl filter brightness-110"
           />
         </h1>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-8 tracking-[0.3em] uppercase">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-2 tracking-[0.3em] uppercase">
           BLUECHEF
         </h2>
         <Button variant="outline" className="bg-transparent border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
