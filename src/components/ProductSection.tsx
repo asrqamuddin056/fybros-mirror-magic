@@ -24,7 +24,7 @@ export const ProductSection = ({
         <div className={`flex flex-col ${reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12`}>
           {/* Content */}
           <div className="flex-1 text-center lg:text-left">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-wide">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-wide">
               {title}
             </h2>
             <h3 className="text-xl md:text-2xl text-muted-foreground mb-6">

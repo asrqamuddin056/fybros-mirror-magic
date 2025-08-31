@@ -29,7 +29,7 @@ export const TrendingSection = () => {
   return (
     <section className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-16 tracking-wide">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-primary mb-16 tracking-wide">
           WHAT'S TRENDING
         </h2>
         
@@ -46,9 +46,9 @@ export const TrendingSection = () => {
         </div>
         
         {/* Additional trending items in a scrolling row */}
-        <div className="mt-12 overflow-x-auto">
-          <div className="flex gap-6 pb-4" style={{ width: 'max-content' }}>
-            {trendingItems.map((item, index) => (
+        <div className="mt-12 overflow-x-hidden">
+          <div className="flex gap-6 pb-4 animate-[scroll_20s_linear_infinite]" style={{ width: 'calc(200% + 24px)' }}>
+            {[...trendingItems, ...trendingItems].map((item, index) => (
               <div key={`scroll-${index}`} className="flex-shrink-0 w-64 group cursor-pointer">
                 <div className="bg-muted rounded-lg overflow-hidden h-40 group-hover:scale-105 transition-transform duration-300">
                   <div className="w-full h-full bg-muted flex items-center justify-center">
