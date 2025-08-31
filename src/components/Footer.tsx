@@ -50,7 +50,7 @@ export const Footer = () => {
             <h3 className="text-xl font-semibold text-foreground mb-4">Contact Information</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <MapPin className="h-7 w-7 text-primary" />
+                <MapPin className="h-8 w-8 text-primary" />
                 <span className="text-muted-foreground">H.No 16-876,Doolapally IDA
 Jeedimetla Hyderabad-55,Telengana</span>
               </div>
