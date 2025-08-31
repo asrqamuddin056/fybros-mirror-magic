@@ -4,9 +4,11 @@ export const HeroSection = () => {
   return <section className="relative min-h-screen bg-background flex items-center justify-center text-center px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold mb-8 tracking-[0.2em] animate-fade-in">
-          <span className="bg-gradient-to-r from-primary via-red-500 to-red-400 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110 hover:scale-105 transition-all duration-700 ease-out inline-block whitespace-nowrap">
-            KANSTAR BLUECHEF
-          </span>
+          <img 
+            src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" 
+            alt="Kanstar Bluechef" 
+            className="h-32 md:h-48 lg:h-64 mx-auto hover:scale-105 transition-all duration-700 ease-out drop-shadow-2xl filter brightness-110"
+          />
         </h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
           Time to re-invent
