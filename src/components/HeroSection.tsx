@@ -3,8 +3,8 @@ import { ChevronRight } from "lucide-react";
 export const HeroSection = () => {
   return <section className="relative min-h-screen bg-background flex items-center justify-center text-center px-4">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-widest">
-          <span className="bg-gradient-to-r from-primary via-red-500 to-red-400 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold mb-8 tracking-[0.2em] animate-fade-in">
+          <span className="bg-gradient-to-r from-primary via-red-500 to-red-400 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110 hover:scale-105 transition-all duration-700 ease-out animate-pulse inline-block">
             KANSTAR BLUECHEF
           </span>
         </h1>
