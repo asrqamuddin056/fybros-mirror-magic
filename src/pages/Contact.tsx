@@ -21,7 +21,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-foreground">Address</h3>
-                    <p className="text-muted-foreground">123 Electronics Street, Industrial Area, Mumbai, India</p>
+                    <p className="text-muted-foreground">123 Fan Street, Industrial Area, Mumbai, India</p>
                   </div>
                 </div>
                 
@@ -37,7 +37,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <p className="text-muted-foreground">info@fybros.com</p>
+                    <p className="text-muted-foreground">info@kanstarbluechef.com</p>
                   </div>
                 </div>
               </div>

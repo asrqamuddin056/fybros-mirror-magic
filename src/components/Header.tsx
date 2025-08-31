@@ -13,7 +13,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" alt="Fybros" className="h-10" />
+            <img src="/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png" alt="Kanstar Bluechef" className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -34,24 +34,6 @@ export const Header = () => {
               Contact Us
             </Link>
           </nav>
-
-          {/* Search Bar */}
-          <div className="hidden md:flex items-center">
-            <div className="relative">
-              <Input
-                type="search"
-                placeholder="Search"
-                className="w-64 pr-10 bg-background border-border"
-              />
-              <Button
-                size="sm"
-                variant="ghost"
-                className="absolute right-0 top-0 h-full px-3"
-              >
-                <Search className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
 
           {/* Mobile Menu Button */}
           <Button
@@ -84,22 +66,6 @@ export const Header = () => {
                 Contact Us
               </Link>
             </nav>
-            <div className="mt-4 px-4">
-              <div className="relative">
-                <Input
-                  type="search"
-                  placeholder="Search"
-                  className="w-full pr-10"
-                />
-                <Button
-                  size="sm"
-                  variant="ghost"
-                  className="absolute right-0 top-0 h-full px-3"
-                >
-                  <Search className="h-4 w-4" />
-                </Button>
-              </div>
-            </div>
           </div>
         )}
       </div>

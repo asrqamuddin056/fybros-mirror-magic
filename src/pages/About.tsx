@@ -9,7 +9,7 @@ const About = () => {
       <main className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-8 text-center">
-            About Fybros
+            About Kanstar Bluechef
           </h1>
           
           <div className="max-w-4xl mx-auto text-muted-foreground leading-relaxed space-y-6">
@@ -18,7 +18,7 @@ const About = () => {
             </p>
             
             <p>
-              In today's fast-paced world, your home and workplace deserve more than just ordinary electricals — they deserve the future. Fybros blends smart innovation with everyday practicality to deliver electrical solutions that are not only high-performing but also aesthetically refined and energy efficient.
+              In today's fast-paced world, your home and workplace deserve more than just ordinary appliances — they deserve the future. Kanstar Bluechef blends smart innovation with everyday practicality to deliver cooling solutions that are not only high-performing but also aesthetically refined and energy efficient.
             </p>
             
             <div className="mt-12">
@@ -26,7 +26,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p>
-                To revolutionize the electrical industry by providing smart, safe, and sustainable solutions that enhance the quality of life for our customers.
+                To revolutionize the cooling industry by providing smart, reliable, and sustainable solutions that enhance the quality of life for our customers.
               </p>
             </div>
             
@@ -35,7 +35,7 @@ const About = () => {
                 Our Vision
               </h2>
               <p>
-                To be the leading electrical solutions provider, known for innovation, quality, and customer satisfaction across the globe.
+                To be the leading cooling solutions provider, known for innovation, quality, and customer satisfaction across the globe.
               </p>
             </div>
           </div>

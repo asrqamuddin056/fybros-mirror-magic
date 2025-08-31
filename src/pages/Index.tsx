@@ -12,22 +12,22 @@ const Index = () => {
       <HeroSection />
       
       <ProductSection 
-        title="TRAIL LIGHT"
-        subtitle="Bringing Brightness To Your Life"
+        title="PEDESTAL FANS"
+        subtitle="Bringing Comfort To Your Life"
         description="Add a Touch of Style to your spaces."
       />
       
       <ProductSection 
-        title="Wires and Cables"
-        subtitle="The ultimate solution for electrical safety"
-        description="Fireproof your electrical systems with PVC cables"
+        title="WALL FANS"
+        subtitle="The ultimate solution for air circulation"
+        description="Enhance your comfort with premium wall mounted fans"
         reverse={true}
       />
       
       <ProductSection 
-        title="SWITCHGEARS"
-        subtitle="Switch to safety with reliable switchgears"
-        description="Unlocking a safer tomorrow"
+        title="TABLE FANS"
+        subtitle="Personal cooling with reliable table fans"
+        description="Unlocking a cooler tomorrow"
       />
       
       <TrendingSection />

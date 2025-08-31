@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-            Discover the Future of Smart Living with Fybros
+            Discover the Future of Smart Cooling with Kanstar Bluechef
           </h2>
           <h3 className="text-lg text-muted-foreground mb-8">
             Where Innovation Meets Everyday Comfort
@@ -15,33 +15,33 @@ export const Footer = () => {
 
         <div className="max-w-4xl mx-auto text-muted-foreground leading-relaxed space-y-6">
           <p>
-            In today's fast-paced world, your home and workplace deserve more than just ordinary electricals — they deserve the future. Fybros blends smart innovation with everyday practicality to deliver electrical solutions that are not only high-performing but also aesthetically refined and energy efficient.
+            In today's fast-paced world, your home and workplace deserve more than just ordinary appliances — they deserve the future. Kanstar Bluechef blends smart innovation with everyday practicality to deliver cooling solutions that are not only high-performing but also aesthetically refined and energy efficient.
           </p>
 
           <div className="mt-12">
             <h4 className="text-xl font-semibold text-foreground mb-4">
-              Redefining Control with Elegant Modular Switches Design
+              Redefining Comfort with Elegant Fan Design
             </h4>
             <p>
-              Switches may be small, but at Fybros, we know they hold great power — literally and visually. Our modular switches design reflects a new era of smart safety and sleek sophistication. Each piece is engineered for flawless functionality and long-term reliability.
+              Fans may seem simple, but at Kanstar Bluechef, we know they hold great power — literally and aesthetically. Our fan designs reflect a new era of smart cooling and sleek sophistication. Each piece is engineered for flawless functionality and long-term reliability.
             </p>
           </div>
 
           <div className="mt-8">
             <h4 className="text-xl font-semibold text-foreground mb-4">
-              Brighten Life with Smart Lighting – Fybros LED Tube Lights
+              Cool Your Space with Smart Fans – Kanstar Bluechef Cooling Solutions
             </h4>
             <p>
-              Let your space shine the right way. Fybros' LED tube lights are crafted to transform your everyday lighting into a vibrant experience. Whether you're cooking in the kitchen, relaxing in the living room, or focusing in your home office — our batten lights deliver consistent brightness while saving energy.
+              Let your space breathe with the right airflow. Kanstar Bluechef fans are crafted to transform your everyday cooling into a refreshing experience. Whether you're working in the office, relaxing in the living room, or focusing in your home workspace — our fans deliver consistent airflow while saving energy.
             </p>
           </div>
 
           <div className="mt-8">
             <h4 className="text-xl font-semibold text-foreground mb-4">
-              Unmatched Quality in Every Connection – Cables and Wires You Can Trust
+              Unmatched Quality in Every Rotation – Motors You Can Trust
             </h4>
             <p>
-              Behind every great structure lies a network of dependable wiring. That's why Fybros offers a complete range of cables and wires for residential, industrial, and communication needs.
+              Behind every great fan lies a network of dependable components. That's why Kanstar Bluechef offers a complete range of high-quality motors and parts for residential, commercial, and industrial cooling needs.
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">123 Electronics Street, Industrial Area, Mumbai, India</span>
+                <span className="text-muted-foreground">123 Fan Street, Industrial Area, Mumbai, India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary" />
@@ -61,7 +61,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">info@fybros.com</span>
+                <span className="text-muted-foreground">info@kanstarbluechef.com</span>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export const Footer = () => {
 
         <div className="text-center mt-12 pt-8 border-t border-border">
           <p className="text-muted-foreground">
-            © 2024 Fybros. All rights reserved. Experience the difference — where smart design powers smarter living.
+            © 2024 Kanstar Bluechef. All rights reserved. Experience the difference — where smart design powers smarter cooling.
           </p>
         </div>
       </div>
